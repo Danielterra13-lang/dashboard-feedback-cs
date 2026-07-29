@@ -1,5 +1,5 @@
 # Dashboard Standalone com Google Sheets como Fonte de Dados
-![Preview do dashboard](screenshot-dashboard.png)
+850a10b9-48b5-4e60-9a32-bcf1c716b170.png
 
 Template de dashboard operacional em HTML puro (sem backend, sem build step) que lê dados
 diretamente de uma planilha do Google Sheets e se atualiza sozinho. Construído originalmente
