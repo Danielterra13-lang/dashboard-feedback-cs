@@ -7,7 +7,7 @@ para um painel de Customer Success (fila de atendimento por urgência, sentiment
 churn), mas a arquitetura é genérica — qualquer planilha com dados tabulares pode alimentar
 esse layout trocando duas variáveis.
 
-Contexto completo e decisões de arquitetura: [link do case study no Notion — adicionar depois de publicar]
+Contexto completo e decisões de arquitetura: https://hip-memory-a6b.notion.site/Case-Dashboard-Operacional-Standalone-com-Google-Sheets-como-Fonte-de-Dados-3aceb2f6a878802fb4aee0e56da3e204?pvs=73
 
 Fluxo de automação que categoriza os feedbacks (Make.com), alimentando a planilha:
 https://us2.make.com/public/shared-scenario/tnGDXksyFPG/fluxo-de-categorizacao-feedback
