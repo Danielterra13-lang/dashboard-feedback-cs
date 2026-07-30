@@ -14,7 +14,7 @@ https://us2.make.com/public/shared-scenario/tnGDXksyFPG/fluxo-de-categorizacao-f
 
 ## Como funciona
 
-- Um único arquivo `dashboard.html` — abre direto no navegador, sem servidor.
+- Um único arquivo `index.html` — abre direto no navegador, sem servidor.
 - Busca os dados via [Google Visualization API (`gviz/tq`)](https://developers.google.com/chart/interactive/docs/querylanguage),
   usando JSONP — não precisa de chave de API nem de backend intermediário.
 - Atualiza sozinho a cada 30 segundos (`setInterval`).
@@ -24,7 +24,7 @@ https://us2.make.com/public/shared-scenario/tnGDXksyFPG/fluxo-de-categorizacao-f
 
 ## Uso
 
-Abra `dashboard.html` no navegador. Por padrão, ele aponta para uma planilha de demonstração
+Abra `index.html` no navegador. Por padrão, ele aponta para uma planilha de demonstração
 com dados fictícios. Para usar sua própria planilha:
 
 ```
@@ -48,6 +48,6 @@ Solicitação`, `Sentimento`, `Urgência`, `Risco de Churn`, `Score de Saúde`, 
   fica lento e vale migrar pra uma fonte com paginação real (ex: API própria ou BigQuery).
 - Classificação de sentimento/urgência/risco acontece fora deste dashboard (no fluxo do Make,
   usando um LLM) — o dashboard só exibe e agrega o que já chega categorizado.
-- Não há autenticação — qualquer pessoa com o link do `dashboard.html` e os parâmetros da
+- Não há autenticação — qualquer pessoa com o link do `index.html` e os parâmetros da
   planilha consegue visualizar os dados, então isso só é adequado para planilhas que já podem
   ser públicas ou para uso atrás de uma rede interna.
