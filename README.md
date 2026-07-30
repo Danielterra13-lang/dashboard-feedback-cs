@@ -28,7 +28,7 @@ Abra `index.html` no navegador. Por padrão, ele aponta para uma planilha de dem
 com dados fictícios. Para usar sua própria planilha:
 
 ```
-dashboard.html?sheetId=SEU_ID_DA_PLANILHA&gid=SEU_GID_DA_ABA
+[dashboard.html?sheetId=SEU_ID_DA_PLANILHA&gid=SEU_GID_DA_ABA](https://danielterra13-lang.github.io/dashboard-feedback-cs/)
 ```
 
 - `sheetId`: parte da URL da planilha entre `/d/` e `/edit`
